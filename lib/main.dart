@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:dingdong/pages/cotorreo_page.dart';
+import 'package:dingdong/pages/reventon_page.dart';
 import 'package:dingdong/pages/fiesta_page.dart';
 import 'package:dingdong/pages/home_page.dart';
 import 'package:dingdong/pages/login_page.dart';
@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'DingDong',
-      initialRoute: 'Home',
+      initialRoute: 'Login',
       routes: {
         'Login': (_) => Login(),
         'Home': (_) => Home(),
         'Fiesta': (_) => Fiesta(),
-        'Cotorreo': (_) => Cotorreo(),
+        'Reventon': (_) => Reventon(),
         'Mundial': (_) => Mundial(),
       },
     );

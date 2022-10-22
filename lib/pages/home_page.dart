@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:dingdong/pages/cotorreo_page.dart';
+import 'package:dingdong/pages/reventon_page.dart';
 import 'package:dingdong/pages/fiesta_page.dart';
 import 'package:dingdong/pages/mundial_page.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                   Navigator.push(context, 
-                   MaterialPageRoute(builder: (context) => const Cotorreo()));
+                   MaterialPageRoute(builder: (context) => const Reventon()));
                 },
               child: Text('¡modo Cotorreo!'),
             ),

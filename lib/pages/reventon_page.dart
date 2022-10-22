@@ -2,13 +2,13 @@
 
 import 'package:flutter/material.dart';
 
-class Cotorreo extends StatelessWidget {
-  const Cotorreo({super.key});
+class Reventon extends StatelessWidget {
+  const Reventon({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('cotorreo_page funciona'),
+      body: Text('Reventon_page funciona'),
     );
   }
 }
